@@ -23,13 +23,13 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "io.intrepid.skeleton"
+        applicationId "io.intrepid.russell.multioskeleton"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "io.intrepid.skeleton.CustomTestRunner"
+        testInstrumentationRunner "io.intrepid.russell.multioskeleton.CustomTestRunner"
     }
 
     signingConfigs {
