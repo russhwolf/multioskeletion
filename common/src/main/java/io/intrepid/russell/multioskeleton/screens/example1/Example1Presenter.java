@@ -1,9 +1,8 @@
 package io.intrepid.russell.multioskeleton.screens.example1;
 
-import android.support.annotation.NonNull;
-
 import io.intrepid.russell.multioskeleton.base.BasePresenter;
 import io.intrepid.russell.multioskeleton.base.PresenterConfiguration;
+import io.reactivex.annotations.NonNull;
 
 class Example1Presenter extends BasePresenter<Example1Contract.View> implements Example1Contract.Presenter {
 

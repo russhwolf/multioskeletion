@@ -1,12 +1,11 @@
 package io.intrepid.russell.multioskeleton.base;
 
-import android.support.annotation.NonNull;
-
 import io.intrepid.russell.multioskeleton.logging.CrashReporter;
 import io.intrepid.russell.multioskeleton.rest.RestApi;
 import io.intrepid.russell.multioskeleton.settings.UserSettings;
 import io.reactivex.ObservableTransformer;
 import io.reactivex.Scheduler;
+import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.CompositeDisposable;
 
 public abstract class BasePresenter<T extends BaseContract.View> implements BaseContract.Presenter<T> {
@@ -59,6 +58,8 @@ public abstract class BasePresenter<T extends BaseContract.View> implements Base
     public final void unbindView() {
         disposables.clear();
         this.view = null;
+
+        restApi.getMyIp();
 
         if (isViewBound) {
             onViewUnbound();

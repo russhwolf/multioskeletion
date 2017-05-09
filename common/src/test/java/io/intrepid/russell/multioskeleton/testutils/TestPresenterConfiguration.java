@@ -1,13 +1,12 @@
 package io.intrepid.russell.multioskeleton.testutils;
 
-import android.support.annotation.NonNull;
-
 import org.mockito.Mockito;
 
 import io.intrepid.russell.multioskeleton.base.PresenterConfiguration;
 import io.intrepid.russell.multioskeleton.logging.CrashReporter;
 import io.intrepid.russell.multioskeleton.rest.RestApi;
 import io.intrepid.russell.multioskeleton.settings.UserSettings;
+import io.reactivex.annotations.NonNull;
 import io.reactivex.schedulers.TestScheduler;
 
 @SuppressWarnings("WeakerAccess")

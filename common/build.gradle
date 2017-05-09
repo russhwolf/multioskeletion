@@ -1,8 +1,32 @@
 apply plugin: 'java'
+apply plugin: 'me.tatarka.retrolambda'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Rx
+    compile "io.reactivex.rxjava2:rxjava:2.0.7"
+
+    // Jake Wharton/Square
+    def retrofitVersion = "2.2.0";
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    compile "com.google.code.gson:gson:2.8.0"
+
+    def okhttpVersion = "3.6.0"
+    compile "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    compile "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
+    // Common test dependencies
+    def junitLib = "junit:junit:4.12"
+    def mockitoVersion = "2.7.17"
+    def mockitoLib = "org.mockito:mockito-core:$mockitoVersion"
+
+    // Unit tests
+    testCompile junitLib
+    testCompile mockitoLib
 }
 
-sourceCompatibility = "1.7"
-targetCompatibility = "1.7"
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"

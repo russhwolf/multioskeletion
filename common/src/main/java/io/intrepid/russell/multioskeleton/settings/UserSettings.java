@@ -1,6 +1,6 @@
 package io.intrepid.russell.multioskeleton.settings;
 
-import android.support.annotation.Nullable;
+import io.reactivex.annotations.Nullable;
 
 public interface UserSettings {
 

@@ -1,11 +1,10 @@
 package io.intrepid.russell.multioskeleton.base;
 
-import android.support.annotation.NonNull;
-
 import io.intrepid.russell.multioskeleton.logging.CrashReporter;
 import io.intrepid.russell.multioskeleton.rest.RestApi;
 import io.intrepid.russell.multioskeleton.settings.UserSettings;
 import io.reactivex.Scheduler;
+import io.reactivex.annotations.NonNull;
 
 /**
  * Wrapper class for common dependencies that all presenters are expected to have
