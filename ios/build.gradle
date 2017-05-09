@@ -43,6 +43,7 @@ dependencies {
     // Compile with 'jar' files in the project's 'lib' directory
     compile fileTree(include: '*.jar', dir: 'lib')
     compile project(':common')
+    compile project(':rxios')
 }
 
 // Setup Eclipse

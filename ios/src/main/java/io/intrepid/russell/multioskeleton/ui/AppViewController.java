@@ -14,10 +14,16 @@ import apple.uikit.UIViewController;
 @RegisterOnStartup
 public class AppViewController extends UIViewController {
 
+    /**
+     * @noinspection JniMissingFunction
+     */
     @Owned
     @Selector("alloc")
     public static native AppViewController alloc();
 
+    /**
+     * @noinspection JniMissingFunction
+     */
     @Selector("init")
     public native AppViewController init();
 

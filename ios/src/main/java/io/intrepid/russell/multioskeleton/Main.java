@@ -10,6 +10,12 @@ import apple.uikit.UIApplication;
 import apple.uikit.UIWindow;
 import apple.uikit.c.UIKit;
 import apple.uikit.protocol.UIApplicationDelegate;
+import io.intrepid.russell.multioskeleton.base.PresenterConfiguration;
+import io.intrepid.russell.multioskeleton.logging.IosCrashReporter;
+import io.intrepid.russell.multioskeleton.rest.RetrofitClient;
+import io.intrepid.russell.multioskeleton.settings.NSUserDefaultsManager;
+import io.reactivex.schedulers.Schedulers;
+import rx.ios.schedulers.IOSSchedulers;
 
 @RegisterOnStartup
 public class Main extends NSObject implements UIApplicationDelegate {
@@ -18,6 +24,9 @@ public class Main extends NSObject implements UIApplicationDelegate {
         UIKit.UIApplicationMain(0, null, null, Main.class.getName());
     }
 
+    /**
+     * @noinspection JniMissingFunction
+     */
     @Selector("alloc")
     public static native Main alloc();
 
@@ -40,5 +49,15 @@ public class Main extends NSObject implements UIApplicationDelegate {
     @Override
     public UIWindow window() {
         return window;
+    }
+
+    public PresenterConfiguration getPresenterConfiguration() {
+        return new PresenterConfiguration(
+                Schedulers.io(),
+                IOSSchedulers.mainThread(),
+                NSUserDefaultsManager.getInstance(),
+                RetrofitClient.getApi(),
+                IosCrashReporter.getInstance()
+        );
     }
 }
