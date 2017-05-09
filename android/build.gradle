@@ -88,6 +88,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':common')
 
     compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
         transitive = true;
