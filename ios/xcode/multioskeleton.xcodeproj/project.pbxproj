@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B8D21F390F252BE9CF4536F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D45B5C4BB18AE2E6353CD873 /* main.cpp */; };
-		58C6F5321DA66CB600309CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5301DA66CB600309CB6 /* Main.storyboard */; };
+		469ABB061EC25F7400235DD7 /* Example2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469ABB041EC25F7400235DD7 /* Example2ViewController.xib */; };
+		469ABB0E1EC3572E00235DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469ABB0C1EC3572E00235DD7 /* Main.storyboard */; };
 		58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5331DA66CB600309CB6 /* Assets.xcassets */; };
 		58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */; };
 		8B56960EAD928805D77E5BDA /* moe-main-interfaces.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9743BCC00F0898E52CC95F /* moe-main-interfaces.m */; };
@@ -16,10 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		469ABB041EC25F7400235DD7 /* Example2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example2ViewController.xib; sourceTree = "<group>"; };
+		469ABB0D1EC3572E00235DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5863B87B1DA682C800E46B6A /* multioskeleton-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multioskeleton-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5863B88E1DA682C800E46B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C6F5241DA66CB600309CB6 /* multioskeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multioskeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C6F5311DA66CB600309CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C6F5331DA66CB600309CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C6F5361DA66CB600309CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C6F5381DA66CB600309CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,11 +87,12 @@
 		58C6F5261DA66CB600309CB6 /* multioskeleton */ = {
 			isa = PBXGroup;
 			children = (
-				58C6F5301DA66CB600309CB6 /* Main.storyboard */,
+				469ABB0C1EC3572E00235DD7 /* Main.storyboard */,
 				58C6F5331DA66CB600309CB6 /* Assets.xcassets */,
 				58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */,
 				58C6F5381DA66CB600309CB6 /* Info.plist */,
 				58C6F5271DA66CB600309CB6 /* Supporting Files */,
+				469ABB041EC25F7400235DD7 /* Example2ViewController.xib */,
 			);
 			path = multioskeleton;
 			sourceTree = "<group>";
@@ -104,11 +107,11 @@
 		};
 		7026FC50E6FB9D9EEDB4A1AA /* Multi-OS Engine */ = {
 			isa = PBXGroup;
-			name = "Multi-OS Engine";
-			sourceTree = "<group>";
 			children = (
 				FA9743BCC00F0898E52CC95F /* moe-main-interfaces.m */,
 			);
+			name = "Multi-OS Engine";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -145,7 +148,7 @@
 			dependencies = (
 			);
 			name = multioskeleton;
-			productName = multioskeleton;
+			productName = "Android Skeleto";
 			productReference = 58C6F5241DA66CB600309CB6 /* multioskeleton.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -163,6 +166,7 @@
 					};
 					58C6F5231DA66CB600309CB6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H6334Z65AH;
 					};
 				};
 			};
@@ -197,9 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469ABB061EC25F7400235DD7 /* Example2ViewController.xib in Resources */,
+				469ABB0E1EC3572E00235DD7 /* Main.storyboard in Resources */,
 				58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */,
 				58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */,
-				58C6F5321DA66CB600309CB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,28 +214,28 @@
 		B4E6EE6B41CD410A401E1F0F /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
-			runOnlyForDeploymentPostprocessing = 0;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Compile Sources (MOE)";
 			outputPaths = (
 			);
-			name = "Compile Sources (MOE)";
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
 			shellScript = "set -e\n\nexport MOE_BUILD_SOURCE_SET=\"test\"\n\n# Check project directory\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\ncd \"$MOE_PROJECT_DIR\"\n\n# Export JAVA_HOME\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\n\n# Utility function for finding the Gradle implementation\nfunction findGradle {\n    CD=\"$PWD\"\n    while [ \"$CD\" != \"\" ]; do\n        echo \"Looking for gradlew in $CD\"\n        if [ -x \"$CD/gradlew\" ]; then\n            GRADLE_EXEC=$CD/gradlew\n            return 0\n        fi\n        CD=\"${CD%/*}\"\n    done\n\n    echo \"Checking with 'which'\"\n    GRADLE_EXEC=$(which 'gradle')\n\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Failed to locate 'gradle' executable!\"\n        exit 1\n    fi\n}\n\n# Build project with Gradle\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n    \"$GRADLE_EXEC\" --no-daemon moeXcodeInternal -s\nfi\n\n# Check output directory\nif [ ! -d \"${MOE_PROJECT_BUILD_DIR}\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\n# Copy some resources\nmkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/application.jar\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/preregister.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [ \"${MOE_BUILD_SOURCE_SET}\" == \"test\" ]; then\n    cp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/classlist.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nfi\n\n# Copy android CA certificates on demand\nif [ \"${MOE_COPY_ANDROID_CACERTS}\" == \"YES\" ]; then\n    rm -rf \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    unzip \"${MOE_SDK_PATH}/sdk/moe-core-certificates.zip\" -d \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\nfi\n\n# Copy and sign MOE framework\nrsync -av --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \\\n    \"${MOE_FRAMEWORK_PATH}/MOE.framework\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" -a \"${CODE_SIGNING_REQUIRED}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY $OTHER_CODE_SIGN_FLAGS \\\n        --preserve-metadata=identifier,entitlements \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOE.framework\"\nfi\n";
 		};
 		C8DF95FF3065F68491C67DDE /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
-			runOnlyForDeploymentPostprocessing = 0;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Compile Sources (MOE)";
 			outputPaths = (
 			);
-			name = "Compile Sources (MOE)";
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
 			shellScript = "set -e\n\nexport MOE_BUILD_SOURCE_SET=\"main\"\n\n# Check project directory\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\ncd \"$MOE_PROJECT_DIR\"\n\n# Export JAVA_HOME\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\n\n# Utility function for finding the Gradle implementation\nfunction findGradle {\n    CD=\"$PWD\"\n    while [ \"$CD\" != \"\" ]; do\n        echo \"Looking for gradlew in $CD\"\n        if [ -x \"$CD/gradlew\" ]; then\n            GRADLE_EXEC=$CD/gradlew\n            return 0\n        fi\n        CD=\"${CD%/*}\"\n    done\n\n    echo \"Checking with 'which'\"\n    GRADLE_EXEC=$(which 'gradle')\n\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Failed to locate 'gradle' executable!\"\n        exit 1\n    fi\n}\n\n# Build project with Gradle\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n    \"$GRADLE_EXEC\" --no-daemon moeXcodeInternal -s\nfi\n\n# Check output directory\nif [ ! -d \"${MOE_PROJECT_BUILD_DIR}\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\n# Copy some resources\nmkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/application.jar\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/preregister.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [ \"${MOE_BUILD_SOURCE_SET}\" == \"test\" ]; then\n    cp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/classlist.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nfi\n\n# Copy android CA certificates on demand\nif [ \"${MOE_COPY_ANDROID_CACERTS}\" == \"YES\" ]; then\n    rm -rf \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    unzip \"${MOE_SDK_PATH}/sdk/moe-core-certificates.zip\" -d \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\nfi\n\n# Copy and sign MOE framework\nrsync -av --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \\\n    \"${MOE_FRAMEWORK_PATH}/MOE.framework\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" -a \"${CODE_SIGNING_REQUIRED}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY $OTHER_CODE_SIGN_FLAGS \\\n        --preserve-metadata=identifier,entitlements \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOE.framework\"\nfi\n";
 		};
@@ -257,10 +262,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58C6F5301DA66CB600309CB6 /* Main.storyboard */ = {
+		469ABB0C1EC3572E00235DD7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				58C6F5311DA66CB600309CB6 /* Base */,
+				469ABB0D1EC3572E00235DD7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = H6334Z65AH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,7 +448,7 @@
 				);
 				INFOPLIST_FILE = multioskeleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MOE_COPY_ANDROID_CACERTS = NO;
+				MOE_COPY_ANDROID_CACERTS = YES;
 				MOE_FRAMEWORK_PATH = "${MOE_SDK_PATH}/sdk/${PLATFORM_NAME}";
 				MOE_OTHER_LDFLAGS = "${MOE_SECT_OAT} ${MOE_SECT_ART} ${MOE_SEGPROT} ${MOE_PAGEZERO} ${MOE_CUSTOM_OTHER_LDFLAGS} -lstdc++ -framework MOE";
 				"MOE_PAGEZERO[sdk=iphoneos*]" = "";
@@ -470,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = H6334Z65AH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,7 +484,7 @@
 				);
 				INFOPLIST_FILE = multioskeleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MOE_COPY_ANDROID_CACERTS = NO;
+				MOE_COPY_ANDROID_CACERTS = YES;
 				MOE_FRAMEWORK_PATH = "${MOE_SDK_PATH}/sdk/${PLATFORM_NAME}";
 				MOE_OTHER_LDFLAGS = "${MOE_SECT_OAT} ${MOE_SECT_ART} ${MOE_SEGPROT} ${MOE_PAGEZERO} ${MOE_CUSTOM_OTHER_LDFLAGS} -lstdc++ -framework MOE";
 				"MOE_PAGEZERO[sdk=iphoneos*]" = "";
