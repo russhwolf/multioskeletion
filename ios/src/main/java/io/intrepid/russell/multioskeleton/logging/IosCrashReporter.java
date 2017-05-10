@@ -1,14 +1,19 @@
 package io.intrepid.russell.multioskeleton.logging;
 
+
 import android.util.Log;
 
-/**
- * TODO just no-op for now
- */
+import org.moe.binding.crashlytics.Crashlytics;
+import org.moe.binding.fabric.Fabric;
+
+import apple.foundation.NSArray;
+
 public class IosCrashReporter implements CrashReporter {
+
     private static IosCrashReporter instance;
 
     public static void init() {
+        Fabric.with(NSArray.arrayWithObject(Crashlytics.class_objc_static()));
         instance = new IosCrashReporter();
     }
 

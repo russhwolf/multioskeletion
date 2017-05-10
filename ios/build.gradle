@@ -33,9 +33,9 @@ moe {
         testTarget 'multioskeleton-Test'
 
         // Uncomment and change these settings if you are working with a Xcode workspace
-        // workspace 'xcode/multioskeleton.xcworkspace'
-        // mainScheme 'multioskeleton'
-        // testScheme 'multioskeleton-Test'
+        workspace 'xcode/multioskeleton.xcworkspace'
+        mainScheme 'multioskeleton'
+        testScheme 'multioskeleton-Test'
     }
 }
 

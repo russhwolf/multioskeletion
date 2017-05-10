@@ -38,6 +38,7 @@ public class Main extends NSObject implements UIApplicationDelegate {
 
     @Override
     public boolean applicationDidFinishLaunchingWithOptions(UIApplication application, NSDictionary launchOptions) {
+        IosCrashReporter.init();
         return true;
     }
 

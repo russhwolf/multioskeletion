@@ -13,20 +13,28 @@
 		58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5331DA66CB600309CB6 /* Assets.xcassets */; };
 		58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */; };
 		8B56960EAD928805D77E5BDA /* moe-main-interfaces.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9743BCC00F0898E52CC95F /* moe-main-interfaces.m */; };
+		B8511D6040F3877991469FDD /* libPods-multioskeleton-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E754A4955E2002951F8965A3 /* libPods-multioskeleton-Test.a */; };
 		CEE22EA77E0EE34051C7AF38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECA2E53261197A9D01739A66 /* main.cpp */; };
+		E0661A33FF17EA756336A44B /* libPods-multioskeleton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05823985002BC99BB19765FB /* libPods-multioskeleton.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05823985002BC99BB19765FB /* libPods-multioskeleton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multioskeleton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		469ABB041EC25F7400235DD7 /* Example2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example2ViewController.xib; sourceTree = "<group>"; };
 		469ABB0D1EC3572E00235DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505230D7ED74A90EDEC28CCB /* Pods-multioskeleton-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multioskeleton-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multioskeleton-Test/Pods-multioskeleton-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		5863B87B1DA682C800E46B6A /* multioskeleton-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multioskeleton-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5863B88E1DA682C800E46B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C6F5241DA66CB600309CB6 /* multioskeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multioskeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C6F5331DA66CB600309CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C6F5361DA66CB600309CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C6F5381DA66CB600309CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90545F43A36B03CAEAE9891B /* Pods-multioskeleton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multioskeleton.release.xcconfig"; path = "Pods/Target Support Files/Pods-multioskeleton/Pods-multioskeleton.release.xcconfig"; sourceTree = "<group>"; };
 		D45B5C4BB18AE2E6353CD873 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E754A4955E2002951F8965A3 /* libPods-multioskeleton-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multioskeleton-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA2E53261197A9D01739A66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ED1310B13E3C6FF6C92CDAEC /* Pods-multioskeleton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multioskeleton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multioskeleton/Pods-multioskeleton.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C6FFC789839E8E86F970A1 /* Pods-multioskeleton-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multioskeleton-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-multioskeleton-Test/Pods-multioskeleton-Test.release.xcconfig"; sourceTree = "<group>"; };
 		FA9743BCC00F0898E52CC95F /* moe-main-interfaces.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "moe-main-interfaces.m"; path = "../build/moe/main/ui-headers/moe-main-interfaces.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8511D6040F3877991469FDD /* libPods-multioskeleton-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0661A33FF17EA756336A44B /* libPods-multioskeleton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +82,8 @@
 				5863B87C1DA682C800E46B6A /* multioskeleton-Test */,
 				58C6F5251DA66CB600309CB6 /* Products */,
 				7026FC50E6FB9D9EEDB4A1AA /* Multi-OS Engine */,
+				8AEE2A262588E871F1654302 /* Pods */,
+				BED469161D0EEF228CA309B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +125,26 @@
 			name = "Multi-OS Engine";
 			sourceTree = "<group>";
 		};
+		8AEE2A262588E871F1654302 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED1310B13E3C6FF6C92CDAEC /* Pods-multioskeleton.debug.xcconfig */,
+				90545F43A36B03CAEAE9891B /* Pods-multioskeleton.release.xcconfig */,
+				505230D7ED74A90EDEC28CCB /* Pods-multioskeleton-Test.debug.xcconfig */,
+				F4C6FFC789839E8E86F970A1 /* Pods-multioskeleton-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BED469161D0EEF228CA309B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05823985002BC99BB19765FB /* libPods-multioskeleton.a */,
+				E754A4955E2002951F8965A3 /* libPods-multioskeleton-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,10 +152,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5863B88F1DA682C800E46B6A /* Build configuration list for PBXNativeTarget "multioskeleton-Test" */;
 			buildPhases = (
+				9630040F6EAB3DCDBC1FC09D /* [CP] Check Pods Manifest.lock */,
 				B4E6EE6B41CD410A401E1F0F /* Compile Sources (MOE) */,
 				5863B8771DA682C800E46B6A /* Sources */,
 				5863B8781DA682C800E46B6A /* Frameworks */,
 				5863B8791DA682C800E46B6A /* Resources */,
+				A371AEC6EAF443D181691F4C /* [CP] Embed Pods Frameworks */,
+				D01F82DD244D97DE30A6F0D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,17 +173,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C6F53B1DA66CB600309CB6 /* Build configuration list for PBXNativeTarget "multioskeleton" */;
 			buildPhases = (
+				BD4AC93E69C62747056200ED /* [CP] Check Pods Manifest.lock */,
 				C8DF95FF3065F68491C67DDE /* Compile Sources (MOE) */,
 				58C6F5201DA66CB600309CB6 /* Sources */,
 				58C6F5211DA66CB600309CB6 /* Frameworks */,
 				58C6F5221DA66CB600309CB6 /* Resources */,
+				0411824C131B79A2AAF36DA4 /* [CP] Embed Pods Frameworks */,
+				588C48058F88D3BBC220B515 /* [CP] Copy Pods Resources */,
+				469ABB0F1EC3AB4300235DD7 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = multioskeleton;
-			productName = "Android Skeleto";
+			productName = "Android Skeleton";
 			productReference = 58C6F5241DA66CB600309CB6 /* multioskeleton.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -211,6 +250,79 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0411824C131B79A2AAF36DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multioskeleton/Pods-multioskeleton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469ABB0F1EC3AB4300235DD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 2a56e99990275b513ecb8afa618d30e05f1868ff 7b695d7c7d5872313cdbff02e948da85014f906d702cc5bc2ae544485664dcb1";
+		};
+		588C48058F88D3BBC220B515 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multioskeleton/Pods-multioskeleton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9630040F6EAB3DCDBC1FC09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A371AEC6EAF443D181691F4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multioskeleton-Test/Pods-multioskeleton-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B4E6EE6B41CD410A401E1F0F /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +337,21 @@
 			shellPath = /bin/bash;
 			shellScript = "set -e\n\nexport MOE_BUILD_SOURCE_SET=\"test\"\n\n# Check project directory\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\ncd \"$MOE_PROJECT_DIR\"\n\n# Export JAVA_HOME\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\n\n# Utility function for finding the Gradle implementation\nfunction findGradle {\n    CD=\"$PWD\"\n    while [ \"$CD\" != \"\" ]; do\n        echo \"Looking for gradlew in $CD\"\n        if [ -x \"$CD/gradlew\" ]; then\n            GRADLE_EXEC=$CD/gradlew\n            return 0\n        fi\n        CD=\"${CD%/*}\"\n    done\n\n    echo \"Checking with 'which'\"\n    GRADLE_EXEC=$(which 'gradle')\n\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Failed to locate 'gradle' executable!\"\n        exit 1\n    fi\n}\n\n# Build project with Gradle\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n    \"$GRADLE_EXEC\" --no-daemon moeXcodeInternal -s\nfi\n\n# Check output directory\nif [ ! -d \"${MOE_PROJECT_BUILD_DIR}\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\n# Copy some resources\nmkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/application.jar\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/preregister.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [ \"${MOE_BUILD_SOURCE_SET}\" == \"test\" ]; then\n    cp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/classlist.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nfi\n\n# Copy android CA certificates on demand\nif [ \"${MOE_COPY_ANDROID_CACERTS}\" == \"YES\" ]; then\n    rm -rf \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    unzip \"${MOE_SDK_PATH}/sdk/moe-core-certificates.zip\" -d \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\nfi\n\n# Copy and sign MOE framework\nrsync -av --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \\\n    \"${MOE_FRAMEWORK_PATH}/MOE.framework\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" -a \"${CODE_SIGNING_REQUIRED}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY $OTHER_CODE_SIGN_FLAGS \\\n        --preserve-metadata=identifier,entitlements \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOE.framework\"\nfi\n";
 		};
+		BD4AC93E69C62747056200ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		C8DF95FF3065F68491C67DDE /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +365,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
 			shellScript = "set -e\n\nexport MOE_BUILD_SOURCE_SET=\"main\"\n\n# Check project directory\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\ncd \"$MOE_PROJECT_DIR\"\n\n# Export JAVA_HOME\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\n\n# Utility function for finding the Gradle implementation\nfunction findGradle {\n    CD=\"$PWD\"\n    while [ \"$CD\" != \"\" ]; do\n        echo \"Looking for gradlew in $CD\"\n        if [ -x \"$CD/gradlew\" ]; then\n            GRADLE_EXEC=$CD/gradlew\n            return 0\n        fi\n        CD=\"${CD%/*}\"\n    done\n\n    echo \"Checking with 'which'\"\n    GRADLE_EXEC=$(which 'gradle')\n\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Failed to locate 'gradle' executable!\"\n        exit 1\n    fi\n}\n\n# Build project with Gradle\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n    \"$GRADLE_EXEC\" --no-daemon moeXcodeInternal -s\nfi\n\n# Check output directory\nif [ ! -d \"${MOE_PROJECT_BUILD_DIR}\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\n# Copy some resources\nmkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/application.jar\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/preregister.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [ \"${MOE_BUILD_SOURCE_SET}\" == \"test\" ]; then\n    cp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/classlist.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nfi\n\n# Copy android CA certificates on demand\nif [ \"${MOE_COPY_ANDROID_CACERTS}\" == \"YES\" ]; then\n    rm -rf \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    unzip \"${MOE_SDK_PATH}/sdk/moe-core-certificates.zip\" -d \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\nfi\n\n# Copy and sign MOE framework\nrsync -av --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \\\n    \"${MOE_FRAMEWORK_PATH}/MOE.framework\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" -a \"${CODE_SIGNING_REQUIRED}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY $OTHER_CODE_SIGN_FLAGS \\\n        --preserve-metadata=identifier,entitlements \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOE.framework\"\nfi\n";
+		};
+		D01F82DD244D97DE30A6F0D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multioskeleton-Test/Pods-multioskeleton-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -283,6 +425,7 @@
 /* Begin XCBuildConfiguration section */
 		5863B8901DA682C800E46B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505230D7ED74A90EDEC28CCB /* Pods-multioskeleton-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
@@ -318,6 +461,7 @@
 		};
 		5863B8911DA682C800E46B6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C6FFC789839E8E86F970A1 /* Pods-multioskeleton-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
@@ -437,6 +581,7 @@
 		};
 		58C6F53C1DA66CB600309CB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1310B13E3C6FF6C92CDAEC /* Pods-multioskeleton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
@@ -473,6 +618,7 @@
 		};
 		58C6F53D1DA66CB600309CB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90545F43A36B03CAEAE9891B /* Pods-multioskeleton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
