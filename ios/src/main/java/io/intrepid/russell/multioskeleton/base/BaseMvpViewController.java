@@ -3,7 +3,13 @@ package io.intrepid.russell.multioskeleton.base;
 import android.annotation.NonNull;
 
 import org.moe.natj.general.Pointer;
+import org.moe.natj.general.ann.RegisterOnStartup;
+import org.moe.natj.objc.ObjCRuntime;
+import org.moe.natj.objc.ann.ObjCClassName;
 
+@org.moe.natj.general.ann.Runtime(ObjCRuntime.class)
+@ObjCClassName("BaseMvpViewController")
+@RegisterOnStartup
 public abstract class BaseMvpViewController<T extends BaseContract.Presenter> extends BaseViewController implements BaseContract.View {
     // TODO is presenter connecting to correct lifecycle events?
 

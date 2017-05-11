@@ -3,12 +3,17 @@ package io.intrepid.russell.multioskeleton.base;
 import android.util.Log;
 
 import org.moe.natj.general.Pointer;
+import org.moe.natj.general.ann.RegisterOnStartup;
+import org.moe.natj.objc.ObjCRuntime;
+import org.moe.natj.objc.ann.ObjCClassName;
 
 import apple.uikit.UIApplication;
 import apple.uikit.UIViewController;
 import io.intrepid.russell.multioskeleton.Main;
 
-
+@org.moe.natj.general.ann.Runtime(ObjCRuntime.class)
+@ObjCClassName("BaseViewController")
+@RegisterOnStartup
 public class BaseViewController extends UIViewController {
     // TODO are there other relevant lifecycle hooks?
 
