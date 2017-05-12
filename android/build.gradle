@@ -106,19 +106,7 @@ dependencies {
     compile "com.google.android.gms:play-services-base:$googlePlayVersion"
 
     // Rx
-    compile "io.reactivex.rxjava2:rxjava:2.0.7"
     compile "io.reactivex.rxjava2:rxandroid:2.0.1"
-
-    // Jake Wharton/Square
-    def retrofitVersion = "2.2.0";
-    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    compile "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
-    compile "com.google.code.gson:gson:2.8.0"
-
-    def okhttpVersion = "3.6.0"
-    compile "com.squareup.okhttp3:okhttp:$okhttpVersion"
-    compile "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
 
     def butterKnifeVersion = "8.5.1"
     compile "com.jakewharton:butterknife:$butterKnifeVersion"
@@ -160,6 +148,7 @@ dependencies {
     def espressoVersion = "2.2.2"
     androidTestCompile "com.android.support.test.espresso:espresso-core:$espressoVersion"
     androidTestCompile "com.android.support.test.espresso:espresso-idling-resource:$espressoVersion"
+    def okhttpVersion = "3.6.0"
     androidTestCompile "com.squareup.okhttp3:mockwebserver:$okhttpVersion"
 }
 
